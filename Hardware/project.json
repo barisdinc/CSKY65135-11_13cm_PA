@@ -1,0 +1,2669 @@
+{
+  "schematics": {
+    "454b8cf6f164497bb3057ee0440a9192": {
+      "name": "13cmPA-V1_V1",
+      "sheets": [
+        {
+          "name": "13cmPA",
+          "id": 1,
+          "uuid": "73ffebc1715d45999ecd79e4ad521bc9"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "0e9a024829624622a1a0d4710551de63": "13cmPA-V1_V1"
+  },
+  "panels": {},
+  "symbols": {
+    "425f8d2e3ff04b24a33aac00f41b8d1a": {
+      "source": "591b61b756624b73b5933f9a421c6a01|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "8.2pF (8R2) ±0.25pF 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "0402CG8R2C500NT",
+      "version": "1742385063",
+      "type": 2
+    },
+    "11eb94873abb4f26a0b7a28c816238c0": {
+      "source": "ae0cf28d2b69473db4d292ae6d5bceb9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "1KΩ (1001) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF1001TCE",
+      "version": "1755154066",
+      "type": 2
+    },
+    "7562d16e214c47b2bb8a5e0b7934d209": {
+      "source": "523e3bee163248ad8f2763bfe8127c1c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "220Ω (2200) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF2200TCE",
+      "version": "1700718911",
+      "type": 2
+    },
+    "3ff49c7940a048aab16223bbab339c8d": {
+      "source": "b0eea3edcc7347ef9cf8b9434f216617|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "330Ω (3300) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0402WGF3300TCE",
+      "version": "1700616910",
+      "type": 2
+    },
+    "3a7b78aaf2094d9491f2729719b88728": {
+      "source": "e28b7483af224102927ee8458efd237c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]",
+      "title": "AMS1117-3.3_C347222",
+      "version": "1740644701",
+      "type": 2
+    },
+    "d2b2f7123ec14f8e9be2483bf745d06f": {
+      "source": "c3200e3a4fd143e3accd073cf2a26603|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]",
+      "title": "AMS1117-5.0_C347223",
+      "version": "1734668102",
+      "type": 2
+    },
+    "c2a1a64e72304c769b6b309246aeb3b6": {
+      "source": "d9c6b187a6964520a26f09fd77271639|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "C0402A101J500NT",
+      "version": "1742385306",
+      "type": 2
+    },
+    "f59e03bd05e74eebbbaf3a64c700a250": {
+      "source": "a380f4c4b6c7417490848c74fe8ce470|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "C0402X104K050T",
+      "version": "1678275658",
+      "type": 2
+    },
+    "5a37aa19561c4afc941052f84c8710e3": {
+      "source": "fa4353a4b7254484abb3c3454743e4b9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "C0805X106K010T",
+      "version": "1678256127",
+      "type": 2
+    },
+    "f04955f6638f49f285761785a367fd19": {
+      "source": "e51bae0c616a47fabf77fe049353f4ec|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CC0402KRX7R7BB104",
+      "version": "1701239966",
+      "type": 2
+    },
+    "f381e322f2814432826acbb5b5e7672c": {
+      "source": "b4340330a6d541498f606b01da4297e7|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CC0402KRX7R9BB271",
+      "version": "1744296599",
+      "type": 2
+    },
+    "84a4e9edbeb8414f9e18a67e372e4b9d": {
+      "source": "6cf83eee4ac147b487e510d766887c64|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CC0402KRX7R9BB332",
+      "version": "1701239890",
+      "type": 2
+    },
+    "5cd63e3ae07a4a97aeecde1da2778932": {
+      "source": "ed6d6fa7aaa64a72aa58fe36da3e890a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CC0402MRX6S5BB106",
+      "version": "1765866918",
+      "type": 2
+    },
+    "ab3ecaec82ed4f7abca221cd60925dcd": {
+      "source": "d126a50cbb9a4a72858002e3c67525f9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100nF (104) ±10% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CC0603KRX7R9BB104",
+      "version": "1748508701",
+      "type": 2
+    },
+    "bc0116793a094da8b67cc736d6573a8b": {
+      "source": "0e95a42b2d524b429eb5759848ef3f6e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100pF (101) ±5% 50V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CL21C101JBANNNC",
+      "version": "1701239756",
+      "type": 2
+    },
+    "a51b7a3578914b24aa97e7de0461c90a": {
+      "source": "7c501115312343ea9939545c8d45d385|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CM05X5R226M06AH",
+      "version": "1742385308",
+      "type": 2
+    },
+    "65793807dabd4513b6719afdaae67b98": {
+      "source": "59ebfed0e8e4c665a67fd54cc90d8451",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Connector_Conn_Coaxial_Small",
+      "version": "fc49244c31a44021b84bdcebf579d99b",
+      "type": 2
+    },
+    "d0465e5b706d4085b8b374817c8aa9ba": {
+      "source": "e30d12ea60324177876ec1d44803319f|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CR0402FF20R0G",
+      "version": "1672482003",
+      "type": 2
+    },
+    "e13151c1d2c847eb86f4781105ba0969": {
+      "source": "e357e42ce6134babba59424a1ff890da|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CR0402FF3300G",
+      "version": "1672482302",
+      "type": 2
+    },
+    "0e9b725277af4828b5963037e8ec5ea6": {
+      "source": "2803515bea2048c4a5a39996cfea9e45|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CR0402FF75R0G",
+      "version": "1672483203",
+      "type": 2
+    },
+    "2eccc020628a4abd87db866233395500": {
+      "source": "5bb23923d0ab47d3889a38fedf36491d|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "CR0402JF0271G",
+      "version": "1705565434",
+      "type": 2
+    },
+    "02b7a07cfa5a47cca95a9972a0df42ee": {
+      "source": "5440dbba7e218ed8ee901647eb20c375",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "default297x210",
+      "version": "45f193f85d53b10a7a2f23dc6fe8492c",
+      "type": 20
+    },
+    "2f19e770f8304ef5b1f4bf6663ae5afe": {
+      "source": "aa49aca1724fcf11f92eaad1fd0a51f4",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Device_C",
+      "version": "e098e76cc880964bacefc234dbc05ffd",
+      "type": 2
+    },
+    "91f7806e95ef43b383ac206d0b2421cd": {
+      "source": "d7709eaac897bfe1d4646d9f243ad525",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Device_L",
+      "version": "b7a9a060a0c3a6d9e242e5daa6d10b34",
+      "type": 2
+    },
+    "1e6a149835cc461f8ba3ef03519974e7": {
+      "source": "eaaf36cfed8f4109e14e974e91e449ce",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "Device_R",
+      "version": "01e66a2d4808a56f506aee113a6a4f64",
+      "type": 2
+    },
+    "a4f8b3e576e846d2997ed9e55df1873c": {
+      "source": "5b4fe7a696464b07bef554e5201f94ef|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "FRC0402F4023TS",
+      "version": "1763129178",
+      "type": 2
+    },
+    "759e0107b01a4db280b031b14af17e5d": {
+      "source": "982a4501e69d4bd2a2b0d26be03e0515|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GL0402YG01",
+      "version": "1763457524",
+      "type": 2
+    },
+    "107c237a823b492bbedab000bdf79d72": {
+      "source": "04e5c528fdcb4bf899859de8a8f8ca3b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-AGND",
+      "version": "1649575325",
+      "type": 18
+    },
+    "8ae3c3376e164b728b361ba620c00529": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "0869706bf9db4c1cb1ade16876715bd2": {
+      "source": "6eda813ed48445a5881a8a5db0492999|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "10nH ±5%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "LQG15HS10NJ02D",
+      "version": "1762999375",
+      "type": 2
+    },
+    "cf13fd84e121413cb39345a9b99da0a7": {
+      "source": "350272bb6bc24f80a67b73cc974bd0fd|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]",
+      "title": "MG6226T3B-25",
+      "version": "1755075324",
+      "type": 2
+    },
+    "aca3731cbf9042439941c15ab19e5618": {
+      "source": "fd6f6c8fdda44dbca07c7864eb2ea274|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]",
+      "title": "MG6226T5-25",
+      "version": "1740569719",
+      "type": 2
+    },
+    "b1e67a1f939b47b9b6c0f4f204f3c472": {
+      "source": "49261ec13ea74cb49c079f2a35e1b4e5|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "MLG1005S2N7BT000",
+      "version": "1739775016",
+      "type": 2
+    },
+    "e528c30a73044176aba78ec423847436": {
+      "source": "4eff39f2ef7f44d7a0f9c9645fba922b|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Netport-OUT",
+      "version": "1649575491",
+      "type": 19
+    },
+    "1654045d512645b6ae83c32d637db4fc": {
+      "source": "b4fc5614febe4d0c966db51b22af788e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1723254107",
+      "type": 18
+    },
+    "857ffade191e497fae6688a66449a873": {
+      "source": "44365f5f9262077a92a261b777a111a1",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "POWER_GND",
+      "version": "85e9d252597fe78ac28969bb1ca74650",
+      "type": 18
+    },
+    "d0a2a9011fa94687b00acb148d74cc16": {
+      "source": "3e7ca7d34dd0451298c421fc1dee945c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "RC0402FR-0751RL",
+      "version": "1706584223",
+      "type": 2
+    },
+    "18eb986561194007adea5a8e525ef630": {
+      "source": "6456ae0ce1404f719d556500e1a09454|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SCR0402J0R",
+      "version": "1715406035",
+      "type": 2
+    },
+    "a0a62f0f453d4b0fac4de59a05e8eb85": {
+      "source": "0fb215ec391b503480387f21df6f9ed4",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "sky65135-21",
+      "version": "6bb2564e59d93ebb3a3250e76abdf12d",
+      "type": 2
+    },
+    "87557efeecd0416da6a468bbf2df61d4": {
+      "source": "0fb215ec391b503480387f21df6f9ed4",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SKY65135-21",
+      "version": "d751713988987e9331980363e24189ce",
+      "type": 2
+    },
+    "f5fd73db1ff0451ba14fe0985f35cc42": {
+      "source": "1ac2e0494979423fbf24302982fc1d46|14a01d2c6e6d4dfc91f3f17b3c1978dc",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "SKY65135-21",
+      "version": "1766180718",
+      "type": 2
+    },
+    "73ea4914d8ae436c85a47dd3bc5f03e5": {
+      "source": "95dc381e71f29c28de49cdd8ff66f2cd",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SKY65135-21_SKY65135-21",
+      "version": "f71d7c8df5d1bec43933d8eebcf112fe",
+      "type": 2
+    },
+    "180741ad2991470cbcee0ba1e992c783": {
+      "source": "aa5b6fe0a33f481fa37e9e4dd4b60b70|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SMA_C9900018296",
+      "version": "1725040193",
+      "type": 2
+    },
+    "be1556187e9e44a1ae1c8f90dab9c52a": {
+      "source": "323bc0b14109406382709819841cea4a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VHF100505HQ1N2ST",
+      "version": "1708940137",
+      "type": 2
+    },
+    "308bad341c4546bf85d6b2e5f41208cb": {
+      "source": "448d49dfb528412abc1b9382362d7791|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VHF100505HQ1N5BT",
+      "version": "1736761831",
+      "type": 2
+    },
+    "532618b0115e4381820b531da693aa2f": {
+      "source": "6373fd88eec74dbd8edf39ec1d11e5e9|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\",\"LED Indication - Discrete\"]",
+      "title": "XL-1005UGC",
+      "version": "1736575883",
+      "type": 2
+    },
+    "19b8cdd6c9d041029195006d30d6914f": {
+      "source": "",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "13cmpa-v1_v1",
+      "version": "1766267063775.0",
+      "type": 17
+    }
+  },
+  "footprints": {
+    "e25f713d0458479d93dc77e74661e474": {
+      "title": "C0402",
+      "source": "6fbbb009724a4aee93b46abcd7ad26b6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651210464",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "ab7aa01191114957bb256c48444ef073": {
+      "title": "C0603",
+      "source": "f499007f726c45dbbd59d7d6a82bc126|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734501471",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "9734d51171a94ecb8c8d587f1ab81ef7": {
+      "title": "C0805",
+      "source": "9376364c15854e01b3fabcf032810a22|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1720420805",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "cf646b456fe242aea4a668f3663293e5": {
+      "title": "CAP-SMD-L1.6-W0.8",
+      "source": "768ffab24ac44156ba4648967c804b10|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1748425909",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "ae74b411e1084b8394b34aac0a4cdbd1": {
+      "title": "CAP-SMD_L6.1-W5.3-L",
+      "source": "dc9d3c3888f443099613a81abb9cfd69|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1730365406",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "f41f1416b50142759664036bc6a75338": {
+      "title": "Capacitor_SMD:C_0402_1005Metric",
+      "source": "72418e8d1047d7695cdfbdc3837a489f",
+      "version": "c0a3fc89800491c774b1ddf9014c3a2a",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "a7f0dd98993b47f5956697fd18afa219": {
+      "title": "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount",
+      "source": "88deddea2f0acb5d86f4888eaf3c6422",
+      "version": "2346e3f5d3a6fc6640049861202a6c63",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "a79d32926e3d416fb9fc9a242993d1ba": {
+      "title": "IND-SMD_L2.2-W2.5_COIL_2.5T",
+      "source": "54974cadb16e4833b6e6be6da455a50e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1716350101",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "f6cb6251856548279f6d1b998169d845": {
+      "title": "Inductor_SMD:L_0402_1005Metric",
+      "source": "980826487fd981719f91120a2f3178ff",
+      "version": "05b7ee1931e818a9c787d68ae9ce032f",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "7e83054f0cdb413089a06ba7f07dac75": {
+      "title": "L0402",
+      "source": "f0e169c94a474b3f804df2bf2370c60f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651210741",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "aa5392b9b0cb40ef89994d44ff683592": {
+      "title": "L0402-RD",
+      "source": "d55342ed383b4ceeb64eb0b567e0d91d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661761627",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "918a9251d78f422790756c2c5da3efe2": {
+      "title": "LED0402-RD",
+      "source": "180cd1a416d14cbf931cc2fcb3245c89|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657289480",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e21a4f9c4c0145f385fbcbd92505d7c7": {
+      "title": "LED0402-RD_GREEN",
+      "source": "b71b79b15b39435b99a93fa6fb28ebf8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649404140",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED0402-RD\"]"
+    },
+    "ff8f712cf55240c2a2d515f30d7ee6cc": {
+      "title": "Library:QFN100P600X600X155-21N",
+      "source": "ac40c1b9ef243869f66399f5d32f9219",
+      "version": "9c449ed3ccf00bc9a2c3f06c92f00791",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "3086919e7e0b4f3c9a30c0bd8d48f377": {
+      "title": "QFN100P600X600X155-21M",
+      "source": "cedd1e27a29b401c9e3520a06296855f|14a01d2c6e6d4dfc91f3f17b3c1978dc",
+      "version": "1766180718",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "7d77a4109db742d999f9fd19ad5ac6de": {
+      "title": "QFN100P600X600X155-21N",
+      "source": "ab3e778d84ead79805ab142a2ac65c5d",
+      "version": "1766181887006.0",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "adbc139bd6e04d55b08c9ff87ca1ad92": {
+      "title": "QFN100P600X600X155-21N",
+      "source": "ab3e778d84ead79805ab142a2ac65c5d",
+      "version": "39e446b48b8adeaf2ee452c8112a8c3b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "4b0fc91dd411435fa1e0f73533493cec": {
+      "title": "R0402",
+      "source": "b43f879bdccf4af3bada432fe602c7c6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1733220397",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\"]"
+    },
+    "b00d3a2af9494909b3e5f78c4f1da264": {
+      "title": "Resistor_SMD:R_0402_1005Metric",
+      "source": "161ea6452d0c41ee77007d2816beed38",
+      "version": "38caff5666c730b43540493751527d50",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "c0f8b9434b044509902dc85b751c23d3": {
+      "title": "SMA-SMD_BWSMA-KE-P001",
+      "source": "4a7a9ad5024144e1972423e756e6ee35|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1721294800",
+      "type": 4,
+      "desc": ";插件;SMA-SMD_BWSMA-KE-P001;SMD-5P;-;SMA-SMD;SMA偏脚;夹板SMA",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "926ca5cf685b4260a7cd3f6fa8239774": {
+      "title": "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+      "source": "6777cfc437474546a40d6dde78bbd63c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1652426260",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-223-4\"]"
+    },
+    "0beeeacdc0f741a1a7a076649e414690": {
+      "title": "SOT-223_L6.7-W3.5-P2.30-BR",
+      "source": "33df0f7a17c34343a6f6c9d92f557cbb|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1657519824",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-223\"]"
+    },
+    "5530c4dae6b84a0d9f9173e10f68d1e4": {
+      "title": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "source": "400c969e1cc94bd38770939828bdc8f4|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1745373400",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "5e52fe32d0174bae8ea0bc5999a19b3e": {
+      "title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
+      "source": "ce19cf3a9e0f444ab83ae99d7368c50c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649403054",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-5\"]"
+    }
+  },
+  "devices": {
+    "83a17df9d7c8472599e56f4579901aa5": {
+      "title": "0402CG8R2C500NT",
+      "attributes": {
+        "LCSC Part Name": "±0.25pF 8.2pF 50V",
+        "Supplier Part": "C1579",
+        "Manufacturer": "FH(风华)",
+        "Manufacturer Part": "0402CG8R2C500NT",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0402CG8R2C500NT/1931.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "425f8d2e3ff04b24a33aac00f41b8d1a",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "8.2pF",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "C0G",
+        "Name": "={Value}",
+        "Description": "Capacitance:8.2pF Voltage Rating:50V Temperature Coefficient:C0G"
+      },
+      "description": "Capacitance:8.2pF Voltage Rating:50V Temperature Coefficient:C0G",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230109/D4BE1F0B0CE943B873F0E49AB3C36D67.jpg"
+      ],
+      "source": "3cf8f9b32d2b4f3b91d964b05b82acc2|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663702823",
+      "custom_tags": ""
+    },
+    "a87492170121442bac9bd7a505f7930c": {
+      "title": "0402WGF1001TCE",
+      "attributes": {
+        "LCSC Part Name": "1kΩ ±1% 62.5mW 厚膜电阻",
+        "Supplier Part": "C11702",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF1001TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0402WGF1001TCE/12256.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "11eb94873abb4f26a0b7a28c816238c0",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "1kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251111/F2B721DDFAACBD4156D64C3BCAAD4E63.jpg"
+      ],
+      "source": "17aa4e57569d4d22adc28d945ba5559d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662493219",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "1bafadcccb854f3897c701ded3f20609": {
+      "title": "0402WGF2200TCE",
+      "attributes": {
+        "LCSC Part Name": "220Ω ±1% 62.5mW 厚膜电阻",
+        "Supplier Part": "C25091",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF2200TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0402WGF2200TCE/25834.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "7562d16e214c47b2bb8a5e0b7934d209",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "220Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:220Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:220Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221229/21BA4F1CC4DD2D746B1133A1C8EDE5B8.jpg"
+      ],
+      "source": "d5c52685711d42eca20ea3a5a5587d1f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665086417",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "51ca31b5307c4cf2a82faccc480a10cd": {
+      "title": "0402WGF3300TCE",
+      "attributes": {
+        "LCSC Part Name": "330Ω ±1% 62.5mW 厚膜电阻",
+        "Supplier Part": "C25104",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0402WGF3300TCE",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/0402WGF3300TCE/25847.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "3ff49c7940a048aab16223bbab339c8d",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "330Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "1/16W",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance:330Ω Tolerance:±1% Tolerance:±1% Power(Watts):1/16W Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance:330Ω Tolerance:±1% Tolerance:±1% Power(Watts):1/16W Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221229/EAB9B3E44084A58F4999CE3A687A2C85.jpg"
+      ],
+      "source": "ad17ef9151aa437db942e9d530bb438c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663875635",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "8ae72ab102eb4ad2b1c2ef1c14b4463e": {
+      "title": "AMS1117-3.3_C347222",
+      "attributes": {
+        "LCSC Part Name": "输出:3.3V 电流:1A 耐压:12V",
+        "Supplier Part": "C347222",
+        "Manufacturer": "UMW(友台半导体)",
+        "Manufacturer Part": "AMS1117-3.3",
+        "Supplier Footprint": "SOT-223",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AMS1117-3.3/323882.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "3a7b78aaf2094d9491f2729719b88728",
+        "Designator": "U?",
+        "Footprint": "926ca5cf685b4260a7cd3f6fa8239774",
+        "3D Model": "e5f8b32b785646b6abbef6d5ae2fe060",
+        "3D Model Title": "SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "3D Model Transform": "279.89794,255.905,0,180,0,0,-0.0005,-0.0005,0",
+        "Output Type": "Fixed",
+        "Voltage - Supply": "12V",
+        "Output Voltage": "3.3V",
+        "Output Current": "1A",
+        "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+        "Voltage Dropout": "1.3V@(1A)",
+        "standby current": "5mA",
+        "Noise": "0.003%Vout",
+        "Features": "Over Current Protection",
+        "Operating Temperature": "-40℃~+125℃",
+        "Output Configuration": "Positive",
+        "Number of Outputs": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "Output Type:Fixed Voltage - Supply:12V Output Voltage:3.3V Output Voltage:3.3V Output Current:1A Power Supply Rejection Ratio (PSRR):60dB@(120Hz) Voltage Dropout:1.3V@(1A) standby current:5mA Noise:0.003%Vout Features:Over Current Protection Operating Tem"
+      },
+      "description": "Output Type:Fixed Voltage - Supply:12V Output Voltage:3.3V Output Voltage:3.3V Output Current:1A Power Supply Rejection Ratio (PSRR):60dB@(120Hz) Voltage Dropout:1.3V@(1A) standby current:5mA Noise:0.003%Vout Features:Over Current Protection Operating Tem",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250227/EC95BC21A75889ED18771B22F9D1284F.jpg"
+      ],
+      "source": "0a2b61034175460b97c45a1c69516745|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662579605",
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]"
+    },
+    "571717e73b024a31a2bbdcf3b1d6f440": {
+      "title": "AMS1117-5.0_C347223",
+      "attributes": {
+        "LCSC Part Name": "输出:5V 电流:1A 耐压:12V",
+        "Supplier Part": "C347223",
+        "Manufacturer": "UMW(友台半导体)",
+        "Manufacturer Part": "AMS1117-5.0",
+        "Supplier Footprint": "SOT-223",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20241218/BAF0263FA2E44BCD8AF41AA4FA04EFAA.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d2b2f7123ec14f8e9be2483bf745d06f",
+        "Designator": "U?",
+        "Footprint": "0beeeacdc0f741a1a7a076649e414690",
+        "3D Model": "e5f8b32b785646b6abbef6d5ae2fe060",
+        "3D Model Title": "SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "3D Model Transform": "279.89794,255.905,0,180,0,0,0,0,0",
+        "Output Type": "Fixed",
+        "Maximum Input Voltage": "18V",
+        "Output Voltage": "5V",
+        "Output Current": "1A",
+        "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+        "Dropout Voltage": "1.3V@(1A)",
+        "standby current": "-",
+        "Noise": "-",
+        "Feature": "Overcurrent Protection(OCP)",
+        "Operating Temperature": "-",
+        "Output Polarity": "Positive electrode",
+        "Number of Outputs": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "Output Type:Fixed Maximum Input Voltage:18V Output Voltage:5V Output Voltage:5V Output Current:1A Power Supply Rejection Ratio (PSRR):60dB@(120Hz) Dropout Voltage:1.3V@(1A) standby current:- Noise:- Feature:Overcurrent Protection(OCP) Operating Temperatur"
+      },
+      "description": "Output Type:Fixed Maximum Input Voltage:18V Output Voltage:5V Output Voltage:5V Output Current:1A Power Supply Rejection Ratio (PSRR):60dB@(120Hz) Dropout Voltage:1.3V@(1A) standby current:- Noise:- Feature:Overcurrent Protection(OCP) Operating Temperatur",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230110/8AA764E076AA11ED3C1221E1A81F472C.jpg"
+      ],
+      "source": "31dcd09166d04eeeb28cbdde2f674812|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664998808",
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]"
+    },
+    "1ac373b1921144acae66e2ca6ee96cc3": {
+      "title": "C0402A101J500NT",
+      "attributes": {
+        "LCSC Part Name": "C0402A101J500NT",
+        "Supplier Part": "C17702724",
+        "Manufacturer": "TORCH(火炬)",
+        "Manufacturer Part": "C0402A101J500NT",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230927/0E50D64F4D2F311F509CBC9B8B2C0B7B.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "c2a1a64e72304c769b6b309246aeb3b6",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20231018/0E0ED11236C500962786ECBFED1EC1C9.jpg"
+      ],
+      "source": "8fa128fe74c94624a9b0322928991328|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1697190052",
+      "custom_tags": ""
+    },
+    "2870487c6d08415aaff88b4c9fbf5ddc": {
+      "title": "C0402X104K050T",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C501838",
+        "Manufacturer": "IHHEC(禾伸堂)",
+        "Manufacturer Part": "C0402X104K050T",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/C0402X104K050T/514597.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f59e03bd05e74eebbbaf3a64c700a250",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230107/AB7E9BA978D6312A29B4F6626818B61D.jpg"
+      ],
+      "source": "64480423b5744d56b9352f0cac91043e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661804083",
+      "custom_tags": ""
+    },
+    "38f01ffb917d46ec8238eb319d500103": {
+      "title": "C0805X106K010T",
+      "attributes": {
+        "LCSC Part Name": "10uF ±10% 10V",
+        "Supplier Part": "C340314",
+        "Manufacturer": "IHHEC(禾伸堂)",
+        "Manufacturer Part": "C0805X106K010T",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/C0805X106K010T/317654.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5a37aa19561c4afc941052f84c8710e3",
+        "Designator": "C?",
+        "Footprint": "9734d51171a94ecb8c8d587f1ab81ef7",
+        "3D Model": "8c88e81f49c6409b980720ec8953afb6",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "10uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "10V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:10uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230109/36AFEF510F3D3B8CC0DCDE95FE01DCC4.jpg"
+      ],
+      "source": "4189003d8b1548ae9ee8ea78a1f46fef|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660156922",
+      "custom_tags": ""
+    },
+    "49e4da38f16d4e879bc5dd233c82328d": {
+      "title": "Capacitor_SMD:C_0402_1005Metric",
+      "attributes": {
+        "Name": "Capacitor_SMD:C_0402_1005Metric",
+        "Attribute1": "C11",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "C_*",
+        "Symbol": "",
+        "Footprint": "f41f1416b50142759664036bc6a75338",
+        "Designator": "C?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "72418e8d1047d7695cdfbdc3837a489f",
+      "version": "23220ffc3cc99bbc6986a4bb2db5d699",
+      "custom_tags": ""
+    },
+    "b93f680ecbb4498eb02636b11dea1338": {
+      "title": "CC0402KRX7R7BB104",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 16V",
+        "Supplier Part": "C60474",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0402KRX7R7BB104",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211223/9278FD768280B81DDBEF48FA36411A03.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f04955f6638f49f285761785a367fd19",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Name": "={Value}",
+        "Device": "d0a88fa337b64b3b8859c42f73be8cf3",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221230/C59CF0DE351D69BB29986105C570F53E.jpg"
+      ],
+      "source": "d0a88fa337b64b3b8859c42f73be8cf3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664481288",
+      "custom_tags": ""
+    },
+    "abc2c8d115cc4673afde315649595b97": {
+      "title": "CC0402KRX7R9BB271",
+      "attributes": {
+        "LCSC Part Name": "270pF ±10% 50V",
+        "Supplier Part": "C107027",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0402KRX7R9BB271",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0402KRX7R9BB271/108243.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f381e322f2814432826acbb5b5e7672c",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "270pF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:270pF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:270pF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250913/0846AD34495A4EF13503C3B88E6F6A34.jpg"
+      ],
+      "source": "7601c4bbaeaa487996bc778e37c1e545|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660158772",
+      "custom_tags": ""
+    },
+    "614cec52615a4e62b77be4f546936ce8": {
+      "title": "CC0402KRX7R9BB332",
+      "attributes": {
+        "LCSC Part Name": "3.3nF ±10% 50V",
+        "Supplier Part": "C107028",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0402KRX7R9BB332",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0402KRX7R9BB332/108244.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "84a4e9edbeb8414f9e18a67e372e4b9d",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "3.3nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:3.3nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:3.3nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250927/62DB1713523D2055E184E345D27CDB11.jpg"
+      ],
+      "source": "e1ce5378a1da44b7b3e17e5a52fefdf7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664048410",
+      "custom_tags": ""
+    },
+    "fe3069b92f9c439eab6f9fd8ff71e5e5": {
+      "title": "CC0402MRX6S5BB106",
+      "attributes": {
+        "LCSC Part Name": "10uF ±20%",
+        "Supplier Part": "C1856484",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0402MRX6S5BB106",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0402MRX6S5BB106/1947297.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5cd63e3ae07a4a97aeecde1da2778932",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "10uF",
+        "Tolerance": "±20%",
+        "Voltage Rating": "-",
+        "Temperature Coefficient": "-",
+        "Name": "={Value}",
+        "Description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:- Temperature Coefficient:-"
+      },
+      "description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:- Temperature Coefficient:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251205/28E526386B7559B70539435DBAB18999.jpg"
+      ],
+      "source": "2c6e9c76eb6c40299cfe0df1e95ccdb3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1765867203",
+      "custom_tags": ""
+    },
+    "59869db6d36a444896bd91fc06b1cc49": {
+      "title": "CC0603KRX7R9BB104",
+      "attributes": {
+        "LCSC Part Name": "100nF ±10% 50V",
+        "Supplier Part": "C14663",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "CC0603KRX7R9BB104",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "ab3ecaec82ed4f7abca221cd60925dcd",
+        "Designator": "C?",
+        "Footprint": "ab7aa01191114957bb256c48444ef073",
+        "3D Model": "624118aa3cc7497086c383c2d72e0852",
+        "3D Model Title": "C0603_L1.6-W0.8-H0.8",
+        "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
+        "Value": "100nF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "X7R",
+        "Name": "={Value}",
+        "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+      },
+      "description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250715/565F44E7FCAE51D13767AECBC328360D.jpg"
+      ],
+      "source": "a299e4f29fd2469688f76621c3d59c4d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664226060",
+      "custom_tags": ""
+    },
+    "2726e4c79b974a9a89f07311cec7a15c": {
+      "title": "CL21C101JBANNNC",
+      "attributes": {
+        "LCSC Part Name": "100pF ±5% 50V",
+        "Supplier Part": "C1790",
+        "Manufacturer": "SAMSUNG(三星)",
+        "Manufacturer Part": "CL21C101JBANNNC",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CL21C101JBANNNC/2142.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "bc0116793a094da8b67cc736d6573a8b",
+        "Designator": "C?",
+        "Footprint": "9734d51171a94ecb8c8d587f1ab81ef7",
+        "3D Model": "8c88e81f49c6409b980720ec8953afb6",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "100pF",
+        "Tolerance": "±5%",
+        "Voltage Rating": "50V",
+        "Temperature Coefficient": "C0G",
+        "Name": "={Value}",
+        "Description": "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G"
+      },
+      "description": "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250828/0A67F0E9DFD8439C43712AADD66CE420.jpg"
+      ],
+      "source": "e2ea8fc9a7034dc38b7bda32ed3f0980|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664048413",
+      "custom_tags": ""
+    },
+    "be37362785424da0854defeac5584ea6": {
+      "title": "CM05X5R226M06AH",
+      "attributes": {
+        "LCSC Part Name": "22uF 6.3V",
+        "Supplier Part": "C2836678",
+        "Manufacturer": "Kyocera AVX",
+        "Manufacturer Part": "CM05X5R226M06AH",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a51b7a3578914b24aa97e7de0461c90a",
+        "Designator": "C?",
+        "Footprint": "e25f713d0458479d93dc77e74661e474",
+        "3D Model": "b7d13df3e9464d7a99d0651d1a5b4d57",
+        "3D Model Title": "C0402_L1.0-W0.5-H0.5",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Value": "22uF",
+        "Voltage Rating": "6.3V",
+        "Temperature Coefficient": "-",
+        "Name": "={Value}",
+        "Device": "11a188b16f1b4efd9e482862974c04ba",
+        "Description": "Capacitance:22uF Voltage Rating:6.3V Temperature Coefficient:-"
+      },
+      "description": "Capacitance:22uF Voltage Rating:6.3V Temperature Coefficient:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230107/2155A5795BCAB8850D1A37DEB2B31F6D.jpg"
+      ],
+      "source": "11a188b16f1b4efd9e482862974c04ba|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660169538",
+      "custom_tags": ""
+    },
+    "132f9fc152ef47ae8883a7d33ab836c0": {
+      "title": "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount",
+      "attributes": {
+        "Name": "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount",
+        "Attribute1": "J2",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*",
+        "Symbol": "",
+        "Footprint": "a7f0dd98993b47f5956697fd18afa219",
+        "Designator": "J?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "88deddea2f0acb5d86f4888eaf3c6422",
+      "version": "085f37120d9de99e75449ebecd683e12",
+      "custom_tags": ""
+    },
+    "ec83fb6363454fd4b116dca8473c4d1e": {
+      "title": "Connector_Conn_Coaxial_Small",
+      "attributes": {
+        "Name": "Connector_Conn_Coaxial_Small",
+        "Footprint": "a7f0dd98993b47f5956697fd18afa219",
+        "Device": "Connector_Conn_Coaxial_Small",
+        "Designator": "J?",
+        "Attribute1": "J1",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*",
+        "Symbol": "65793807dabd4513b6719afdaae67b98",
+        "Value": "RF_IN",
+        "User doc link": "~",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "59ebfed0e8e4c665a67fd54cc90d8451",
+      "version": "af6ef1e288b5c35ebdca7c6bca5d29c2",
+      "custom_tags": ""
+    },
+    "f304d417072747749b2d693e6148e2bc": {
+      "title": "CR0402FF20R0G",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 20Ω ±1% 62.5mW",
+        "Supplier Part": "C100299",
+        "Manufacturer": "LIZ(丽智电子)",
+        "Manufacturer Part": "CR0402FF20R0G",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180403/C189438_6D658388CC7843F35BBC9018D03F0B8E.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d0465e5b706d4085b8b374817c8aa9ba",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "20Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature Range": "-55℃~+125℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/4286560EF64399154A173E478EBC52FC.jpg"
+      ],
+      "source": "8014b4de934844dfa4de0e5cc94efc52|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660158534",
+      "custom_tags": ""
+    },
+    "9a97a5154d7f4fad920000c56b7c1c5a": {
+      "title": "CR0402FF3300G",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 330Ω ±1% 62.5mW",
+        "Supplier Part": "C100375",
+        "Manufacturer": "LIZ(丽智电子)",
+        "Manufacturer Part": "CR0402FF3300G",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CR0402FF3300G/101590.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e13151c1d2c847eb86f4781105ba0969",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "330Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature": "-55℃~+125℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:330Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:330Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/2A5C25FDF11BAB88F6893DA32AA5AE3B.jpg"
+      ],
+      "source": "9b140b15616e44f4891aaa46de582ae8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664048408",
+      "custom_tags": ""
+    },
+    "79186a8391c04181be2dd873dfae7c38": {
+      "title": "CR0402FF75R0G",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 75Ω ±1% 62.5mW",
+        "Supplier Part": "C100528",
+        "Manufacturer": "LIZ(丽智电子)",
+        "Manufacturer Part": "CR0402FF75R0G",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180403/C189438_6D658388CC7843F35BBC9018D03F0B8E.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "0e9b725277af4828b5963037e8ec5ea6",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "75Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature Range": "-55℃~+125℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/DC6DC301EA1E46412E54EF08FA6D1310.jpg"
+      ],
+      "source": "3e45add6729b470b883b35933547c918|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661804051",
+      "custom_tags": ""
+    },
+    "5dbe906762934a44a370742cb452a022": {
+      "title": "CR0402JF0271G",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 270Ω ±5% 62.5mW",
+        "Supplier Part": "C100627",
+        "Manufacturer": "LIZ(丽智电子)",
+        "Manufacturer Part": "CR0402JF0271G",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180403/C189438_6D658388CC7843F35BBC9018D03F0B8E.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "2eccc020628a4abd87db866233395500",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "270Ω",
+        "Tolerance": "±5%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±200ppm/℃",
+        "Operating Temperature Range": "-55℃~+125℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±5% Tolerance:±5% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±5% Tolerance:±5% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±200ppm/℃ Temperature Coefficient:±200ppm/℃ Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/8899D368FEEEC59E90FBE8A2800F59C3.jpg"
+      ],
+      "source": "cd5e87f1ccb946e78c28126c170240ae|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660158575",
+      "custom_tags": ""
+    },
+    "f855e40ec4e24a12a702e92520654a3f": {
+      "title": "default297x210",
+      "attributes": {
+        "Name": "default297x210",
+        "Symbol": "02b7a07cfa5a47cca95a9972a0df42ee",
+        "Date": "",
+        "Type": "",
+        "Rev": "",
+        "Size": "\"A4\"",
+        "Id": "/",
+        "Title": "",
+        "File": "13cmPA",
+        "Sheet": "/",
+        "Comp": "",
+        "Comment1": "",
+        "Comment2": "",
+        "Comment3": "",
+        "Comment4": "",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "5440dbba7e218ed8ee901647eb20c375",
+      "version": "cc854133522ed4c5489a1eb460217279",
+      "custom_tags": ""
+    },
+    "76b8002dd7814f6bb03e694b097264b7": {
+      "title": "Device_C",
+      "attributes": {
+        "Name": "Device_C",
+        "Footprint": "f41f1416b50142759664036bc6a75338",
+        "Device": "Device_C",
+        "Designator": "C?",
+        "Attribute1": "C7",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "C_*",
+        "Symbol": "2f19e770f8304ef5b1f4bf6663ae5afe",
+        "Value": "8p2",
+        "User doc link": "~",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "aa49aca1724fcf11f92eaad1fd0a51f4",
+      "version": "84cd8f7c2c511aee9c11e04a0dd13388",
+      "custom_tags": ""
+    },
+    "9e4e1cd0ec1b43c080b6c350b59b480e": {
+      "title": "Device_L",
+      "attributes": {
+        "Name": "Device_L",
+        "Footprint": "f6cb6251856548279f6d1b998169d845",
+        "Device": "Device_L",
+        "Designator": "L?",
+        "Attribute1": "L1",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "Choke_* *Coil* Inductor_* L_*",
+        "Symbol": "91f7806e95ef43b383ac206d0b2421cd",
+        "Value": "300",
+        "User doc link": "~",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d7709eaac897bfe1d4646d9f243ad525",
+      "version": "2f7bf1ddb2acdeee075f5694b0eb768d",
+      "custom_tags": ""
+    },
+    "ba3355ac9fdf46acb540796d211f43b8": {
+      "title": "Device_R",
+      "attributes": {
+        "Name": "Device_R",
+        "Footprint": "b00d3a2af9494909b3e5f78c4f1da264",
+        "Device": "Device_R",
+        "Designator": "R?",
+        "Attribute1": "R3",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "R_*",
+        "Symbol": "1e6a149835cc461f8ba3ef03519974e7",
+        "Value": "750",
+        "User doc link": "~",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "eaaf36cfed8f4109e14e974e91e449ce",
+      "version": "ae8ffa5b9fcd2b783e88877cfeb0a307",
+      "custom_tags": ""
+    },
+    "386010f1dc01435b93455d791c7711d2": {
+      "title": "FRC0402F4023TS",
+      "attributes": {
+        "LCSC Part Name": "402kΩ ±1% 62.5mW 厚膜电阻",
+        "Supplier Part": "C5126256",
+        "Manufacturer": "FOJAN(富捷)",
+        "Manufacturer Part": "FRC0402F4023TS",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/FRC0402F4023TS/5726603.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a4f8b3e576e846d2997ed9e55df1873c",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "402kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:402kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:402kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251111/DBF8AD02BF014EFF52874B980C6512D6.jpg"
+      ],
+      "source": "b42dd19d05e646d2a511639bd0b303ca|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1756198804",
+      "custom_tags": ""
+    },
+    "de70edcccc254fd7a1eb3108b7f78c09": {
+      "title": "GL0402YG01",
+      "attributes": {
+        "LCSC Part Name": "0402 黄绿 高亮",
+        "Supplier Part": "C51933305",
+        "Manufacturer": "Guiguang light(桂光光电)",
+        "Manufacturer Part": "GL0402YG01",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/GL0402YG01/54646001.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "759e0107b01a4db280b031b14af17e5d",
+        "Designator": "LED?",
+        "Footprint": "918a9251d78f422790756c2c5da3efe2",
+        "3D Model": "b6291e20d463426285984a29308bda21",
+        "3D Model Title": "LED0402_L1.0-W0.5-H0.2",
+        "3D Model Transform": "40.1574,19.685,0,0,0,0,0,-0.0005,0",
+        "Illumination Color": "Yellow Green",
+        "Voltage - Forward(Vf)": "2.4V",
+        "Forward Current": "20mA",
+        "Wavelength - Dominant": "568nm~574nm",
+        "Diode Configuration": "Discrete Diode",
+        "Lens Color": "Water Clear",
+        "Luminous Intensity": "70mcd",
+        "Viewing Angle": "120°",
+        "Mounting Style": "Top-mount",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Illumination Color:Yellow Green Voltage - Forward(Vf):2.4V Voltage - Forward(Vf):2.4V Forward Current:20mA Wavelength - Dominant:568nm~574nm Wavelength - Dominant:568nm~574nm Diode Configuration:Discrete Diode Lens Color:Water Clear Luminous Intensity:70m"
+      },
+      "description": "Illumination Color:Yellow Green Voltage - Forward(Vf):2.4V Voltage - Forward(Vf):2.4V Forward Current:20mA Wavelength - Dominant:568nm~574nm Wavelength - Dominant:568nm~574nm Diode Configuration:Discrete Diode Lens Color:Water Clear Luminous Intensity:70m",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251202/9DC37D3184AD0572B18825F2200A6140.jpg"
+      ],
+      "source": "01d302030bb54580b957caaf8eeae141|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1763436037",
+      "custom_tags": ""
+    },
+    "b1066fccf6d846d2a0a9042696740c79": {
+      "title": "Ground-AGND",
+      "attributes": {
+        "Symbol": "107c237a823b492bbedab000bdf79d72",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "148a9abf1a034fb89df462e63c7e875e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575342",
+      "custom_tags": "[]"
+    },
+    "305f89ada80445b7b5a47427fdbb30dd": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "8ae3c3376e164b728b361ba620c00529",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "195bab968bd641ca9b4796e18fdfbbc7": {
+      "title": "Inductor_SMD:L_0402_1005Metric",
+      "attributes": {
+        "Name": "Inductor_SMD:L_0402_1005Metric",
+        "Attribute1": "L2",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "Choke_* *Coil* Inductor_* L_*",
+        "Symbol": "",
+        "Footprint": "f6cb6251856548279f6d1b998169d845",
+        "Designator": "L?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "980826487fd981719f91120a2f3178ff",
+      "version": "ac1f81dd388c9e54478fc9a83b919d61",
+      "custom_tags": ""
+    },
+    "08b4eacbfd9248749c1e57d54a8d3532": {
+      "title": "Library:QFN100P600X600X155-21N",
+      "attributes": {
+        "Name": "Library:QFN100P600X600X155-21N",
+        "Attribute1": "IC1",
+        "Datasheet": "https://componentsearchengine.com/Datasheets/1/SKY65135-21.pdf",
+        "Description": "",
+        "Height": "1.55",
+        "Mouser Part Number": "873-SKY65135-21",
+        "Mouser Price/Stock": "https://www.mouser.com/Search/Refine.aspx?Keyword=873-SKY65135-21",
+        "Manufacturer_Name": "Skyworks",
+        "Manufacturer_Part_Number": "SKY65135-21",
+        "Symbol": "",
+        "Footprint": "ff8f712cf55240c2a2d515f30d7ee6cc",
+        "Designator": "IC?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "ac40c1b9ef243869f66399f5d32f9219",
+      "version": "221fe970a5c40f7445a735ad6ac85284",
+      "custom_tags": ""
+    },
+    "85232c6ac1014fd5a298574cfeacdabf": {
+      "title": "LQG15HS10NJ02D",
+      "attributes": {
+        "LCSC Part Name": "10nH ±5%",
+        "Supplier Part": "C77103",
+        "Manufacturer": "muRata(村田)",
+        "Manufacturer Part": "LQG15HS10NJ02D",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/LQG15HS10NJ02D/78230.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "0869706bf9db4c1cb1ade16876715bd2",
+        "Designator": "L?",
+        "Footprint": "aa5392b9b0cb40ef89994d44ff683592",
+        "3D Model": "af8519f297ad48beac83bdc898afdb0a",
+        "3D Model Title": "L0402-RD",
+        "3D Model Transform": "40.1574,20.4724,0,0,0,0,0,0,0",
+        "Value": "10nH",
+        "Tolerance": "±5%",
+        "Current Rating": "500mA",
+        "Current - Saturation (Isat)": "-",
+        "DC Resistance(DCR)": "260mΩ",
+        "Q @ Frequency": "8@100MHz",
+        "Frequency - Self Resonant": "3.4GHz",
+        "Ratings": "-",
+        "Name": "={Value}",
+        "Description": "Inductance:10nH Tolerance:±5% Tolerance:±5% Current Rating:500mA Current - Saturation (Isat):- DC Resistance(DCR):260mΩ Q @ Frequency:8@100MHz Frequency - Self Resonant:3.4GHz Ratings:-"
+      },
+      "description": "Inductance:10nH Tolerance:±5% Tolerance:±5% Current Rating:500mA Current - Saturation (Isat):- DC Resistance(DCR):260mΩ Q @ Frequency:8@100MHz Frequency - Self Resonant:3.4GHz Ratings:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221231/8F2ACA46B77B1D62874808B54982A8CB.jpg"
+      ],
+      "source": "5eaa72326bfd4089a7508865d23a1fde|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1763000403",
+      "custom_tags": ""
+    },
+    "83bee9c5e2b1497196450b3d7a6c4f86": {
+      "title": "MG6226T3B-25",
+      "attributes": {
+        "LCSC Part Name": "输入5.5V 输出2.5V 300mA",
+        "Supplier Part": "C42410999",
+        "Manufacturer": "Megain(美佳音)",
+        "Manufacturer Part": "MG6226T3B-25",
+        "Supplier Footprint": "SOT-23-3",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MG6226T3B-25/44391801.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "cf13fd84e121413cb39345a9b99da0a7",
+        "Designator": "U?",
+        "Footprint": "5530c4dae6b84a0d9f9173e10f68d1e4",
+        "3D Model": "4eed685bb9f4439b846746bc2193f3c0",
+        "3D Model Title": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+        "3D Model Transform": "114.173,110.236,0,90,0,0,0,0,0",
+        "Output Type": "Fixed",
+        "Voltage - Supply": "5.5V",
+        "Output Voltage": "2.5V",
+        "Output Current": "300mA",
+        "Power Supply Rejection Ratio (PSRR)": "45dB@(1kHz)",
+        "Voltage Dropout": "150mV@(100mA)",
+        "standby current": "500nA",
+        "Features": "Short Circuit Protection；Thermal Shutdown",
+        "Operating Temperature": "-40℃~+85℃@(Ta)",
+        "Output Configuration": "Positive",
+        "Number of Outputs": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "Output Type:Fixed Voltage - Supply:5.5V Output Voltage:2.5V Output Voltage:2.5V Output Current:300mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:150mV@(100mA) standby current:500nA Features:Short Circuit Protection；Thermal Shutdown Ope"
+      },
+      "description": "Output Type:Fixed Voltage - Supply:5.5V Output Voltage:2.5V Output Voltage:2.5V Output Current:300mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:150mV@(100mA) standby current:500nA Features:Short Circuit Protection；Thermal Shutdown Ope",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20241218/3652327A4DA955FD374D27D55F33347E.jpg"
+      ],
+      "source": "77cfbfbca21448678f0983e4fa34668c|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1755075656",
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]"
+    },
+    "104057ca2fab4e55a24cae505ade908d": {
+      "title": "MG6226T5-25",
+      "attributes": {
+        "LCSC Part Name": "输入5.5V 输出2.5V 300mA",
+        "Supplier Part": "C42411002",
+        "Manufacturer": "Megain(美佳音)",
+        "Manufacturer Part": "MG6226T5-25",
+        "Supplier Footprint": "SOT-23-5",
+        "JLCPCB Part Class": "",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MG6226T5-25/44391804.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "aca3731cbf9042439941c15ab19e5618",
+        "Designator": "U?",
+        "Footprint": "5e52fe32d0174bae8ea0bc5999a19b3e",
+        "3D Model": "181cd81bc0eb45c3a4928013d5e38870",
+        "3D Model Title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
+        "3D Model Transform": "114.96,110.236,0,0,0,0,0,0,0",
+        "Output Type": "Fixed",
+        "Voltage - Supply": "5.5V",
+        "Output Voltage": "2.5V",
+        "Output Current": "300mA",
+        "Power Supply Rejection Ratio (PSRR)": "45dB@(1kHz)",
+        "Voltage Dropout": "500mV@(300mA)",
+        "standby current": "500nA",
+        "Features": "Over Current Protection；Short Circuit Protection；Thermal Shutdown",
+        "Operating Temperature": "-40℃~+85℃@(Ta)",
+        "Output Configuration": "Positive",
+        "Number of Outputs": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "Output Type:Fixed Voltage - Supply:5.5V Output Voltage:2.5V Output Voltage:2.5V Output Current:300mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:500mV@(300mA) standby current:500nA Features:Over Current Protection；Short Circuit Protect"
+      },
+      "description": "Output Type:Fixed Voltage - Supply:5.5V Output Voltage:2.5V Output Voltage:2.5V Output Current:300mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:500mV@(300mA) standby current:500nA Features:Over Current Protection；Short Circuit Protect",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20241218/45C13159A6F01DA00484547F51736071.jpg"
+      ],
+      "source": "733983eb20d240d59166117291bab121|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1740570002",
+      "custom_tags": "[\"Power Management (PMIC)\",\"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators\"]"
+    },
+    "79e9f936e61e42059288ff19da94d9c9": {
+      "title": "MLG1005S2N7BT000",
+      "attributes": {
+        "LCSC Part Name": "±0.1nH 2.7nH",
+        "Supplier Part": "C275282",
+        "Manufacturer": "TDK",
+        "Manufacturer Part": "MLG1005S2N7BT000",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MLG1005S2N7BT000/263369.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "b1e67a1f939b47b9b6c0f4f204f3c472",
+        "Designator": "L?",
+        "Footprint": "aa5392b9b0cb40ef89994d44ff683592",
+        "3D Model": "af8519f297ad48beac83bdc898afdb0a",
+        "3D Model Title": "L0402-RD",
+        "3D Model Transform": "40.1574,20.4724,0,0,0,0,0,0,0",
+        "Value": "2.7nH",
+        "Tolerance": "-",
+        "Current Rating": "800mA",
+        "Current - Saturation (Isat)": "-",
+        "DC Resistance(DCR)": "80mΩ",
+        "Q @ Frequency": "7@100MHz",
+        "Frequency - Self Resonant": "6GHz",
+        "Ratings": "-",
+        "Name": "={Value}",
+        "Description": "Inductance:2.7nH Tolerance:- Tolerance:- Current Rating:800mA Current - Saturation (Isat):- DC Resistance(DCR):80mΩ Q @ Frequency:7@100MHz Frequency - Self Resonant:6GHz Ratings:-"
+      },
+      "description": "Inductance:2.7nH Tolerance:- Tolerance:- Current Rating:800mA Current - Saturation (Isat):- DC Resistance(DCR):80mΩ Q @ Frequency:7@100MHz Frequency - Self Resonant:6GHz Ratings:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230108/E9F85C6728BBE2CD667F218F77232956.jpg"
+      ],
+      "source": "8ab2efbeed15474b82ceb700a6518a3e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661804097",
+      "custom_tags": ""
+    },
+    "31ea2e555f1a42e88ebbc4e40743e14e": {
+      "title": "Netport-OUT",
+      "attributes": {
+        "Symbol": "e528c30a73044176aba78ec423847436",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d3f8509c9aa24ff4941c9d84243e9d34|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575496",
+      "custom_tags": "[]"
+    },
+    "046ba51eb1fe42f18b8a48a60eb369b3": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Global Net Name": "VCC",
+        "Name": "",
+        "Symbol": "1654045d512645b6ae83c32d637db4fc",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "7737efc32ff44ecb8cf68152f3fbd014|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254107",
+      "custom_tags": "[]"
+    },
+    "153b44ef278a4854989d3758cb8fc1fd": {
+      "title": "power_GND",
+      "attributes": {
+        "Name": "power_GND",
+        "Symbol": "857ffade191e497fae6688a66449a873",
+        "Value": "GND",
+        "User doc link": "",
+        "Description": "",
+        "Footprint": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "44365f5f9262077a92a261b777a111a1",
+      "version": "7ab43afbbaee194ee7e2d01a6a974b59",
+      "custom_tags": ""
+    },
+    "02fd1125a46a476b89c4ee79882a0540": {
+      "title": "RC0402FR-0751RL",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 51Ω ±1% 62.5mW",
+        "Supplier Part": "C137960",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "RC0402FR-0751RL",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0751RL/149276.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d0a2a9011fa94687b00acb148d74cc16",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "51Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:51Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:51Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230110/66E4395AB437206CD887A95A5342393C.jpg"
+      ],
+      "source": "5e02f085acb547f69ea07a218e328b00|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1664481309",
+      "custom_tags": ""
+    },
+    "d076e1f15ed9428d80b48725a61b21da": {
+      "title": "Resistor_SMD:R_0402_1005Metric",
+      "attributes": {
+        "Name": "Resistor_SMD:R_0402_1005Metric",
+        "Attribute1": "R2",
+        "Datasheet": "~",
+        "Description": "",
+        "ki_fp_filters": "R_*",
+        "Symbol": "",
+        "Footprint": "b00d3a2af9494909b3e5f78c4f1da264",
+        "Designator": "R?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "161ea6452d0c41ee77007d2816beed38",
+      "version": "99218aaabd53cfdc77fc1f2c1f57525a",
+      "custom_tags": ""
+    },
+    "bf51b7edf72b42fc9a933120fb17672c": {
+      "title": "SCR0402J0R",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 0Ω ±5% 62.5mW",
+        "Supplier Part": "C3017451",
+        "Manufacturer": "VO(翔胜)",
+        "Manufacturer Part": "SCR0402J0R",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20220513/247AF9639BA21CF93567DC289CCC6A22.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "18eb986561194007adea5a8e525ef630",
+        "Designator": "R?",
+        "Footprint": "4b0fc91dd411435fa1e0f73533493cec",
+        "3D Model": "efdecb7dae4442949d28eecaf748420f",
+        "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "0Ω",
+        "Tolerance": "±5%",
+        "Power(Watts)": "62.5mW",
+        "Voltage-Supply(Max)": "50V",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:0Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Voltage-Supply(Max):50V Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:0Ω Tolerance:±5% Tolerance:±5% Power(Watts):62.5mW Voltage-Supply(Max):50V Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/6F19F0FEAEAF0554FFAEAB582F35341B.jpg"
+      ],
+      "source": "2d778091190d49f1bf27ba1f9ea24e04|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663042985",
+      "custom_tags": ""
+    },
+    "89179a746d5e4da784b1462af8196d74": {
+      "title": "sky65135-21",
+      "attributes": {
+        "Symbol": "a0a62f0f453d4b0fac4de59a05e8eb85",
+        "Footprint": "",
+        "Name": "sky65135-21",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "27cc75e7fad744de95b5d853e3156fe9",
+        "3D Model Title": "SKY65135-21"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "0fb215ec391b503480387f21df6f9ed4",
+      "version": "c972e23573ce24dc1eec8d3def6b3630",
+      "custom_tags": ""
+    },
+    "ad4873954bd14f45b155d7a6f95151c1": {
+      "title": "SKY65135-21",
+      "attributes": {
+        "Symbol": "87557efeecd0416da6a468bbf2df61d4",
+        "Footprint": "",
+        "Name": "SKY65135-21",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "27cc75e7fad744de95b5d853e3156fe9",
+        "3D Model Title": "SKY65135-21"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "0fb215ec391b503480387f21df6f9ed4",
+      "version": "4854e9f7b0372194ce228398ca82ebc2",
+      "custom_tags": ""
+    },
+    "88da41fb33c2408dba7229aec9f29413": {
+      "title": "SKY65135-21",
+      "attributes": {
+        "Symbol": "f5fd73db1ff0451ba14fe0985f35cc42",
+        "Footprint": "3086919e7e0b4f3c9a30c0bd8d48f377",
+        "Name": "SKY65135-21",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Description": "",
+        "3D Model": "27cc75e7fad744de95b5d853e3156fe9",
+        "3D Model Title": "SKY65135-21"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "488cddb90d9e4891806cd727fe428bda|14a01d2c6e6d4dfc91f3f17b3c1978dc",
+      "version": "1766180719",
+      "custom_tags": "[]"
+    },
+    "a43a7d5e21044e7899922dd4be7894d6": {
+      "title": "SKY65135-21_SKY65135-21",
+      "attributes": {
+        "Name": "SKY65135-21_SKY65135-21",
+        "Device": "SKY65135-21_SKY65135-21",
+        "Symbol": "73ea4914d8ae436c85a47dd3bc5f03e5",
+        "Designator": "IC?",
+        "Footprint": "7d77a4109db742d999f9fd19ad5ac6de",
+        "Value": "SKY65135-21",
+        "User doc link": "https://componentsearchengine.com/Datasheets/1/SKY65135-21.pdf",
+        "Description": "",
+        "Height": "1.55",
+        "Mouser Part Number": "873-SKY65135-21",
+        "Mouser Price/Stock": "https://www.mouser.com/Search/Refine.aspx?Keyword=873-SKY65135-21",
+        "Manufacturer_Name": "Skyworks",
+        "Manufacturer_Part_Number": "SKY65135-21",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "95dc381e71f29c28de49cdd8ff66f2cd",
+      "version": "c58be7793bb0d322f8f38713f4241ace",
+      "custom_tags": ""
+    },
+    "cbe21f68fca54a5789a6ae5e4ce4359d": {
+      "title": "SMA",
+      "attributes": {
+        "LCSC Part Name": "SMA",
+        "Supplier Part": "C9900018296",
+        "Manufacturer": "",
+        "Manufacturer Part": "SMA",
+        "Supplier Footprint": "SMA-SMD_BWSMA-KE-P001",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "180741ad2991470cbcee0ba1e992c783",
+        "Designator": "SMA?",
+        "Footprint": "c0f8b9434b044509902dc85b751c23d3",
+        "3D Model": "ff7e924b72cb4dc5bc964edb13e9cbaf",
+        "3D Model Title": "SMA-TH_5P-L6.5-W6.5-H9.5_BWSMA-KE-P001",
+        "3D Model Transform": "255.905,255.905,0,180,0,90,-23.62,0,17.717",
+        "Name": "={Manufacturer Part}",
+        "Device": "efce7b86dff047ba876015a14f9a26ea",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [],
+      "source": "efce7b86dff047ba876015a14f9a26ea|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660171050",
+      "custom_tags": ""
+    },
+    "76d124e8ec83479bb2f092b04580fbbf": {
+      "title": "VHF100505HQ1N2ST",
+      "attributes": {
+        "LCSC Part Name": "1.2nH",
+        "Supplier Part": "C395053",
+        "Manufacturer": "FH(风华)",
+        "Manufacturer Part": "VHF100505HQ1N2ST",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230208/097A5FD33363C9318A1C8B9447979AC6.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "be1556187e9e44a1ae1c8f90dab9c52a",
+        "Designator": "L?",
+        "Footprint": "7e83054f0cdb413089a06ba7f07dac75",
+        "3D Model": "aef00b1603224fd68a96e37121ccc916",
+        "3D Model Title": "L0402_L1.0-W0.5-H0.5_BEAD",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Value": "1.2nH",
+        "Rated Current": "",
+        "Saturation Current (Isat)": "-",
+        "DC Resistance (DCR)": "",
+        "Q @ Freq": "-",
+        "Frequency - Self Resonant": "-",
+        "Ratings": "",
+        "Name": "={Value}",
+        "Description": "Inductance: Rated Current: Saturation Current (Isat):- DC Resistance (DCR): Q @ Freq:- Frequency - Self Resonant:- Ratings:"
+      },
+      "description": "Inductance: Rated Current: Saturation Current (Isat):- DC Resistance (DCR): Q @ Freq:- Frequency - Self Resonant:- Ratings:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230109/365C802C99BC97338939E19076615AF0.jpg"
+      ],
+      "source": "2d289f8f1a7a4b08909841d64a54f835|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660159966",
+      "custom_tags": ""
+    },
+    "3ca22991143b46d8a6091d52540b9cee": {
+      "title": "VHF100505HQ1N5BT",
+      "attributes": {
+        "LCSC Part Name": "±0.1nH 1.5nH",
+        "Supplier Part": "C3032792",
+        "Manufacturer": "FH(风华)",
+        "Manufacturer Part": "VHF100505HQ1N5BT",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/VHF100505HQ1N5BT/3573136.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "308bad341c4546bf85d6b2e5f41208cb",
+        "Designator": "L?",
+        "Footprint": "7e83054f0cdb413089a06ba7f07dac75",
+        "3D Model": "aef00b1603224fd68a96e37121ccc916",
+        "3D Model Title": "L0402_L1.0-W0.5-H0.5_BEAD",
+        "3D Model Transform": "39.37,19.685,0,0,0,0,0,0.0005,0",
+        "Value": "1.5nH",
+        "Name": "={Value}",
+        "Device": "46d53b7592ad4cb886666e7851f7e0d5",
+        "Description": "Inductance:1.5nH"
+      },
+      "description": "Inductance:1.5nH",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/0A7112A9B1ACA9AE0FC91FE3EC7A77FC.jpg"
+      ],
+      "source": "46d53b7592ad4cb886666e7851f7e0d5|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1736757604",
+      "custom_tags": ""
+    },
+    "a4cfce8984bd4ae5a1e461e1a3094f0b": {
+      "title": "XL-1005UGC_C965793",
+      "attributes": {
+        "LCSC Part Name": "0402翠绿贴片式发光二极管",
+        "Supplier Part": "C965793",
+        "Manufacturer": "XINGLIGHT(成兴光)",
+        "Manufacturer Part": "XL-1005UGC",
+        "Supplier Footprint": "0402",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/XL-1005UGC/1051402.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "532618b0115e4381820b531da693aa2f",
+        "Designator": "LED?",
+        "Footprint": "e21a4f9c4c0145f385fbcbd92505d7c7",
+        "3D Model": "b6291e20d463426285984a29308bda21",
+        "3D Model Title": "LED0402_L1.0-W0.5-H0.2",
+        "3D Model Transform": "40.1574,19.685,0,0,0,0,0,-0.0005,0",
+        "Illumination Color": "Emerald Green",
+        "Voltage - Forward(Vf)": "3V",
+        "Power(Watts)": "80mW",
+        "Forward Current": "25mA",
+        "Wavelength - Dominant": "516nm~531nm",
+        "Peak Wavelength": "531nm",
+        "Lens Color": "Water Clear",
+        "Color Temperature": "-",
+        "Luminous Intensity": "249mcd",
+        "Viewing Angle": "120°",
+        "Mounting Style": "op View Mount",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Illumination Color:Emerald Green Voltage - Forward(Vf):3V Voltage - Forward(Vf):3V Power(Watts):80mW Forward Current:25mA Wavelength - Dominant:516nm~531nm Wavelength - Dominant:516nm~531nm Peak Wavelength:531nm Lens Color:Water Clear Color Temperature:-"
+      },
+      "description": "Illumination Color:Emerald Green Voltage - Forward(Vf):3V Voltage - Forward(Vf):3V Power(Watts):80mW Forward Current:25mA Wavelength - Dominant:516nm~531nm Wavelength - Dominant:516nm~531nm Peak Wavelength:531nm Lens Color:Water Clear Color Temperature:-",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20240725/2251C19F162710C72D5AA6EAD0F3146E.jpg"
+      ],
+      "source": "7dfe323ab91a49a59e2a6a6a9d88e09e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665258029",
+      "custom_tags": "[\"Optoelectronics\",\"LED Indication - Discrete\"]"
+    }
+  },
+  "boards": {
+    "13cmPA-V1_V1": {
+      "schematic": "454b8cf6f164497bb3057ee0440a9192",
+      "pcb": "0e9a024829624622a1a0d4710551de63"
+    }
+  },
+  "config": {
+    "title": "13cmPA-V1_V1",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "2.2.45.4"
+  }
+}
